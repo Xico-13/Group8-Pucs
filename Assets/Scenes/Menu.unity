@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &87157661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,6 +795,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250447600}
   m_CullTransparentMesh: 1
+--- !u!1 &263165138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263165139}
+  - component: {fileID: 263165140}
+  m_Layer: 0
+  m_Name: ColorBlind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263165139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263165138}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 53.59268, y: 197.59303, z: 3.8582218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1260856388}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &263165140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263165138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d7753517352a342acbbb8c687c2e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _blindnessType: 0
+  _useFilter: 1
+  _shader: {fileID: 0}
 --- !u!1 &377460574
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,7 +861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &377460575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1857,7 +1904,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 576954096}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2075080948}
+        m_TargetAssemblyTypeName: ColorBlindFilterButtonHandler, Assembly-CSharp
+        m_MethodName: SetTritanopia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &576954096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2322,7 +2381,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 643766861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2075080948}
+        m_TargetAssemblyTypeName: ColorBlindFilterButtonHandler, Assembly-CSharp
+        m_MethodName: SetProtanopia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &643766861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2955,7 +3026,6 @@ GameObject:
   - component: {fileID: 800227748}
   - component: {fileID: 800227747}
   - component: {fileID: 800227746}
-  - component: {fileID: 800227749}
   m_Layer: 5
   m_Name: ColorBlindOptions
   m_TagString: Untagged
@@ -3024,21 +3094,6 @@ RectTransform:
   m_AnchoredPosition: {x: 3.8000183, y: -165.2}
   m_SizeDelta: {x: 695.2, y: 364}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &800227749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800227745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3337bb46034d2e4ca3b8f153a4a9c02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorblindFilter: {fileID: 0}
-  toggle: {fileID: 0}
-  dropdown: {fileID: 0}
 --- !u!1 &844312336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3235,7 +3290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &927586222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3517,7 +3572,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1017791429}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2075080948}
+        m_TargetAssemblyTypeName: ColorBlindFilterButtonHandler, Assembly-CSharp
+        m_MethodName: SetOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1017791429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4277,6 +4344,8 @@ Transform:
   m_Children:
   - {fileID: 730346836}
   - {fileID: 162082810}
+  - {fileID: 2075080949}
+  - {fileID: 263165139}
   - {fileID: 872348653}
   - {fileID: 2076050706}
   m_Father: {fileID: 0}
@@ -5034,7 +5103,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1633434419}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2075080948}
+        m_TargetAssemblyTypeName: ColorBlindFilterButtonHandler, Assembly-CSharp
+        m_MethodName: SetDeuteranopia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1633434419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6441,7 +6522,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2075080949}
   - component: {fileID: 2075080948}
-  - component: {fileID: 2075080947}
   m_Layer: 0
   m_Name: FilterManager
   m_TagString: Untagged
@@ -6449,21 +6529,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2075080947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075080946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04d7753517352a342acbbb8c687c2e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _blindnessType: 0
-  _useFilter: 1
-  _shader: {fileID: 0}
 --- !u!114 &2075080948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6476,6 +6541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a9ed6ed25689c04b99e35a4b202b713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  filter: {fileID: 263165140}
 --- !u!4 &2075080949
 Transform:
   m_ObjectHideFlags: 0
@@ -6484,12 +6550,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075080946}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 367.31448, y: 202.09698, z: 2.1477036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -70.1821, y: 47.112717, z: 3.7776213}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1260856388}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2076050704
 GameObject:
@@ -6669,4 +6735,3 @@ SceneRoots:
   - {fileID: 377460578}
   - {fileID: 87157664}
   - {fileID: 1260856388}
-  - {fileID: 2075080949}

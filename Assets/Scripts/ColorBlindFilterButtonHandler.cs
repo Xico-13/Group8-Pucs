@@ -1,30 +1,29 @@
 using UnityEngine;
-using ColorblindFilter.Scripts;  // Ajusta para o teu namespace
 
 public class ColorBlindFilterButtonHandler : MonoBehaviour
 {
-    [SerializeField] private ColorblindFilter colorblindFilterInstance;
+    public ColorblindFilter.Scripts.ColorblindFilter filter;
 
-    public void TurnOff()
+    public void SetOff()
     {
-        colorblindFilterInstance.SetUseFilter(false);
+        filter.SetUseFilter(false);
     }
 
     public void SetProtanopia()
     {
-        colorblindFilterInstance.SetUseFilter(true);
-        colorblindFilterInstance.ChangeBlindType(BlindnessType.Protanopia);
+        filter.SetUseFilter(true);
+        filter.ChangeBlindType(ColorblindFilter.Scripts.BlindnessType.Protanopia);
     }
 
     public void SetDeuteranopia()
     {
-        colorblindFilterInstance.SetUseFilter(true);
-        colorblindFilterInstance.ChangeBlindType(BlindnessType.Deuteranopia);
+        filter.SetUseFilter(true);
+        filter.ChangeBlindType(ColorblindFilter.Scripts.BlindnessType.Deuteranopia);
     }
 
     public void SetTritanopia()
     {
-        colorblindFilterInstance.SetUseFilter(true);
-        colorblindFilterInstance.ChangeBlindType(BlindnessType.Tritanopia);
+        filter.SetUseFilter(true);
+        filter.ChangeBlindType(ColorblindFilter.Scripts.BlindnessType.Tritanopia);
     }
 }
