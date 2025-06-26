@@ -108,18 +108,40 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pin Lockdown UI Final-08_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 50
+        width: 1793
+        height: 983
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e0ad0494af0de4bbd7895a957679e0
+      internalID: -1245174772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3b12e024fc3a6ba4c910f8862d401e95
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pin Lockdown UI Final-08_0: -1245174772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

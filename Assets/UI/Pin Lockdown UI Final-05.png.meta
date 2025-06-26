@@ -108,18 +108,172 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pin Lockdown UI Final-05_0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 921
+        width: 292
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8507788ca97ac18418eff13c0398491d
+      internalID: 1675051279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pin Lockdown UI Final-05_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 921
+        width: 292
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d1eaa83aa75b94d800432f4ffa2d6c
+      internalID: -1111489193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pin Lockdown UI Final-05_2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 921
+        width: 292
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeda7a6b982f074e913d18b52ac91c8
+      internalID: -1119501050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pin Lockdown UI Final-05_3
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 921
+        width: 292
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0572454d4dd1eb4c83483a22868c2c1
+      internalID: 1098896917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pin Lockdown UI Final-05_4
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 921
+        width: 291
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7627205f16e6a6438cb76c161daf2a2
+      internalID: -1192106031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pin Lockdown UI Final-05_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 750
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec347d3708320cd4ca50651821bc93b4
+      internalID: 893521848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pin Lockdown UI Final-05_6
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 99
+        width: 292
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cbb999703a01c40bb5adb85202649e
+      internalID: -681165062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 85600c8ce3d306b41842e7d07ac4a7bc
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pin Lockdown UI Final-05_0: 1675051279
+      Pin Lockdown UI Final-05_1: -1111489193
+      Pin Lockdown UI Final-05_2: -1119501050
+      Pin Lockdown UI Final-05_3: 1098896917
+      Pin Lockdown UI Final-05_4: -1192106031
+      Pin Lockdown UI Final-05_5: 893521848
+      Pin Lockdown UI Final-05_6: -681165062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
